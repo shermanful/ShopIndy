@@ -1,5 +1,5 @@
-const text = document.getElementById('notify-text');
-const notify = document.getElementById('notify-button');
+const text = document.getElementById('shopindy-text');
+const notify = document.getElementById('shopindy-button');
 
 notify.addEventListener('click', () => {
   chrome.runtime.sendMessage('', {
