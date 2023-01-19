@@ -10,7 +10,7 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "icon": "/assets/48.png"
+      "icon": "/assets/icon.png"
       }
   }
 }
