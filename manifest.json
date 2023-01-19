@@ -4,8 +4,13 @@
   "description": "Buy from Indepentent Booksellers",
   "manifest_version": 3,
   "author": "Jill Sherman",
-
+  "icons": {
+    "icon": "/assets/icon.png"
+  },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "icon": "/assets/48.png"
+      }
   }
 }
