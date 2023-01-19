@@ -5,7 +5,7 @@ chrome.runtime.onMessage.addListener( data => {
               {
                   type: 'basic',
                   title: 'ShopIndy!',
-                  message: data.message || 'ShopInd!',
+                  message: data.message || 'ShopIndy!',
                   iconUrl: './assets/128.png',
               }
           );
