@@ -1,9 +1,10 @@
-const text = document.getElementById('shopindy-text');
-const notify = document.getElementById('shopindy-button');
+const text = document.getElementById( 'notify-text' );
+const notify = document.getElementById( 'notify-button' );
 
-notify.addEventListener('click', () => {
-  chrome.runtime.sendMessage('', {
+
+notify.addEventListener( 'click', () => {
+  chrome.runtime.sendMessage( '', {
     type: 'notification',
-    message: text.value,
+    message: text.value
   });
-});
+} );
