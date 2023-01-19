@@ -1,0 +1,11 @@
+{
+  "name": "ShopIndy",
+  "version": "1.0.0",
+  "description": "Buy from Indepentent Booksellers",
+  "manifest_version": 3,
+  "author": "Jill Sherman",
+
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
